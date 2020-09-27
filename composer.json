@@ -3,6 +3,7 @@
     "description": "A module that creates a page in the Magento admin area",
     "type": "magento2-module",
     "version": "100.4.0",
+    "minimum-stability": "stable",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
