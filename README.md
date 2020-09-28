@@ -5,7 +5,7 @@ Magento Module Suraj_Test
 
 
 Install Using Composer using command --  composer require suraj/suraj-module:dev-master
-enable module by command --  php bin/magento module:enable Suraj_Test
-upgrade using command --  php bin/magento setup:upgrade
-disable module by command --  php bin/magento module:disable Suraj_Test
+</br>Enable module by command --  php bin/magento module:enable Suraj_Test
+</br>Upgrade using command --  php bin/magento setup:upgrade
+Disable module by command --  php bin/magento module:disable Suraj_Test
 
