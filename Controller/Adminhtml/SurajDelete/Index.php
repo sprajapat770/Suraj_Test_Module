@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Suraj\Test\Controller\Adminhtml\HelloWorld;
+namespace Suraj\Test\Controller\Adminhtml\SurajDelete;
 
 
 use Magento\Backend\App\Action\Context;
@@ -12,7 +12,7 @@ use Magento\Framework\View\Result\PageFactory;
 
 class Index extends Action implements HttpGetActionInterface
 {
-    const MENU_ID = 'Suraj_Test::greeting';
+    const MENU_ID = 'Suraj_Test::delete';
 
 
     /**

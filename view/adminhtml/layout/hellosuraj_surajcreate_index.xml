@@ -1,17 +1,13 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <update handle="2column"/>
-    <head>
-        <css src="Suraj_Test::css/adminhtml.css"/>
-    </head>
     <referenceBlock name="page.title">
         <action method="setPageTitle">
-            <argument name="title" xsi:type="string">Greetings</argument>
+            <argument name="title" xsi:type="string">Create Page</argument>
         </action>
     </referenceBlock>
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Backend\Block\Template" template="Suraj_Test::helloworld.phtml"/>
+            <block class="Magento\Backend\Block\Template" template="Suraj_Test::create_page_suraj.phtml"/>
         </referenceContainer>
     </body>
 </page>

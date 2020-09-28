@@ -3,7 +3,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Suraj_Test::menu" title="Custom Menu" sortOrder="10" >
+                <resource id="Suraj_Test::suraj_menu" title="Custom Menu" sortOrder="10" >
                     <resource id="Suraj_Test::action_submenu" title="Action" sortOrder="10" >
                         <resource id="Suraj_Test::create" title="Create" sortOrder="50" />
                         <resource id="Suraj_Test::delete" title="Delete" sortOrder="100" />
