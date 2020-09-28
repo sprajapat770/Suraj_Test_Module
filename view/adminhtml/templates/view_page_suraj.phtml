@@ -1,1 +1,12 @@
+<?php
+
+/**
+ * @var \Suraj\Test\Block\ViewPageDisplay $block;
+ */
+$customerData = $block->getCustomerData();
+
+?>
 <p>View Page!</p>
+
+<p>User Name : <strong><?php echo $customerData->getFirstName()." ".$customerData->getLastName();?></strong></p>
+<p>User Email-Id : <strong><?php echo $customerData->getEmail();?></strong></p>

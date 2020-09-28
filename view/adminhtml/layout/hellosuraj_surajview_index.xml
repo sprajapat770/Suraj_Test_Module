@@ -7,7 +7,7 @@
     </referenceBlock>
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Backend\Block\Template" template="Suraj_Test::view_page_suraj.phtml"/>
+            <block class="Suraj\Test\Block\ViewPageDisplay" template="Suraj_Test::view_page_suraj.phtml"/>
         </referenceContainer>
     </body>
 </page>
